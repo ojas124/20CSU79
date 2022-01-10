@@ -1,0 +1,42 @@
+img{
+    width:300px;
+}
+input[value="hide"]:checked ~ img{
+    display: none;
+}
+input[value="1"]:checked ~ .two{
+    display: none;
+}
+input[value="1"]:checked ~ .three{
+    display: none;
+}
+input[value="1"]:checked ~ .four{
+    display: none;
+}
+input[value="2"]:checked ~ .one{
+    display: none;
+}
+input[value="2"]:checked ~ .three{
+    display: none;
+}
+input[value="2"]:checked ~ .four{
+    display: none;
+}
+input[value="3"]:checked ~ .one{
+    display: none;
+}
+input[value="3"]:checked ~ .two{
+    display: none;
+}
+input[value="3"]:checked ~ .four{
+    display: none;
+}
+input[value="4"]:checked ~ .one {
+    display: none;
+}
+input[value="4"]:checked ~ .two {
+    display: none;
+}
+input[value="4"]:checked ~ .three {
+    display: none;
+}

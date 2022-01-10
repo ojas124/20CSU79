@@ -1,0 +1,32 @@
+/* *{
+    border:2px dotted blue;
+    margin: 5px;
+} */
+/* child selector */
+header > nav{
+    border: 7px solid lime;
+}
+header > ul{
+    border: 10px solid red;
+}
+
+/* sibling selectors  ~ + */
+header ~ p{
+    font-size: 26px;
+    color:maroon;
+    background-color: lightgray;
+    border: 2px dashed lightsalmon;
+}
+ul + p{
+    border: 10% solid lightpink;
+    width: 3cm;
+}
+nav > ul > li{
+    display: inline-block;
+    border: 5px solid lightgreen;
+    background-color: lightgreen;
+}
+header{
+    width: 50%;
+    border: 1px solid blue;
+}

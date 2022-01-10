@@ -1,0 +1,40 @@
+header{
+    display: flex;
+    width: 50%;
+    height: 50px;
+    border: 4px dotted red;
+    justify-content: space-between;
+
+}
+
+.mdiv{
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+}
+.icon{
+    font-size: 2em;
+}
+p{
+    font-family: 'Glory', Roboto;
+}
+
+.mainmenu{
+    list-style:none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightskyblue;
+    margin:5px;
+}
+ul>li{
+    border:2px solid brown;
+    margin: 10px;
+    padding: 10px;
+}
+.submenu{
+    display:none;
+    list-style: none;
+}
+.menu1:hover > .submenu{
+    display: block;
+}

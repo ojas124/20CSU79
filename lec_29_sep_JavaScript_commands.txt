@@ -1,0 +1,412 @@
+Console was cleared
+undefined
+a=3.14
+3.14
+a=22/7
+3.142857142857143
+30%7
+2
+23//3
+23
+s='let\'s go'
+"let's go"
+s
+"let's go"
+34/2
+17
+34/244
+0.13934426229508196
+34 > 45
+false
+12!=90
+true
+< > != <= >=
+VM1378:1 Uncaught SyntaxError: Unexpected token '<'
+12!=90 || 12<90
+true
+12!=90 && 12<90
+true
+(12!=90) && (12<90)
+true
+(12!=90) && (12>90)
+false
+(12!=90) || (12>90)
+true
+if(3>4){
+    console.log("True Case");
+}else{
+    console.log("False Case");
+}
+VM1762:4 False Case
+undefined
+let o;
+undefined
+o = 78;
+78
+for (let i=0; i<10; i++){
+    console.log("i=",i);
+}
+VM1987:2 i= 0
+VM1987:2 i= 1
+VM1987:2 i= 2
+VM1987:2 i= 3
+VM1987:2 i= 4
+VM1987:2 i= 5
+VM1987:2 i= 6
+VM1987:2 i= 7
+VM1987:2 i= 8
+VM1987:2 i= 9
+undefined
+i
+VM2011:1 Uncaught ReferenceError: i is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM2011:1
+o
+78
+a
+3.142857142857143
+while(o<100){
+    console.log(o);
+    o++;
+}
+VM2128:2 78
+VM2128:2 79
+VM2128:2 80
+VM2128:2 81
+VM2128:2 82
+VM2128:2 83
+VM2128:2 84
+VM2128:2 85
+VM2128:2 86
+VM2128:2 87
+VM2128:2 88
+VM2128:2 89
+VM2128:2 90
+VM2128:2 91
+VM2128:2 92
+VM2128:2 93
+VM2128:2 94
+VM2128:2 95
+VM2128:2 96
+VM2128:2 97
+VM2128:2 98
+VM2128:2 99
+99
+3>4? console.log("True Case"); : console.log("False Case");
+VM2294:1 Uncaught SyntaxError: Unexpected token ';'
+3>4? console.log("True Case") : console.log("False Case");
+VM2301:1 False Case
+undefined
+bool = true;
+true
+bool==ture? bool=false : bool=true;
+VM2415:1 Uncaught ReferenceError: ture is not defined
+    at <anonymous>:1:7
+(anonymous) @ VM2415:1
+bool==true? bool=false : bool=true;
+false
+bool
+false
+bool==true? bool=false : bool=true;
+true
+bool
+true
+bool==true? bool=false : bool=true;
+false
+bool==true? bool=false : bool=true;
+true
+bool==true? bool=false : bool=true;
+false
+bool==true? bool=false : bool=true;
+true
+function add(){
+    let a=20;
+    let b=30;
+    
+VM2561:4 Uncaught SyntaxError: Unexpected end of input
+function add(){
+    let a=20;
+    let b=30;
+    let c = a + b;
+}
+undefined
+add()
+undefined
+function add(){
+    let a=20;
+    let b=30;
+    let c = a + b;
+    console.log(c);
+}
+undefined
+add()
+VM2674:5 50
+undefined
+function add(a,b){
+    return a + b;
+}
+undefined
+add(200, 300)
+500
+add(200933, 300)
+201233
+add(200933, 3002298)
+3203231
+"sabdas"+"dshjs"
+'sabdasdshjs'
+add("ksjhdasjdha","sdass")
+'ksjhdasjdhasdass'
+function primeYesNo(n){
+    for(let i=2; i<n;i++){
+        if(n%i==0){
+            console.log(n, " is not a prime number");
+            return;
+        }
+    }
+    console.log(n, " is a prime number");
+}
+undefined
+primeYesNo(17)
+VM3222:8 17 ' is a prime number'
+undefined
+primeYesNo(18)
+VM3222:4 18 ' is not a prime number'
+undefined
+primeYesNo(19)
+VM3222:8 19 ' is a prime number'
+undefined
+primeYesNo(20)
+VM3222:4 20 ' is not a prime number'
+undefined
+primeYesNo(21)
+VM3222:4 21 ' is not a prime number'
+undefined
+primeYesNo(22)
+VM3222:4 22 ' is not a prime number'
+undefined
+primeYesNo(23)
+VM3222:8 23 ' is a prime number'
+undefined
+for (let i = 0; i<100; i++){
+    primeYesNo(i);
+}
+VM3222:8 0 ' is a prime number'
+VM3222:8 1 ' is a prime number'
+VM3222:8 2 ' is a prime number'
+VM3222:8 3 ' is a prime number'
+VM3222:4 4 ' is not a prime number'
+VM3222:8 5 ' is a prime number'
+VM3222:4 6 ' is not a prime number'
+VM3222:8 7 ' is a prime number'
+VM3222:4 8 ' is not a prime number'
+VM3222:4 9 ' is not a prime number'
+VM3222:4 10 ' is not a prime number'
+VM3222:8 11 ' is a prime number'
+VM3222:4 12 ' is not a prime number'
+VM3222:8 13 ' is a prime number'
+VM3222:4 14 ' is not a prime number'
+VM3222:4 15 ' is not a prime number'
+VM3222:4 16 ' is not a prime number'
+VM3222:8 17 ' is a prime number'
+VM3222:4 18 ' is not a prime number'
+VM3222:8 19 ' is a prime number'
+VM3222:4 20 ' is not a prime number'
+VM3222:4 21 ' is not a prime number'
+VM3222:4 22 ' is not a prime number'
+VM3222:8 23 ' is a prime number'
+VM3222:4 24 ' is not a prime number'
+VM3222:4 25 ' is not a prime number'
+VM3222:4 26 ' is not a prime number'
+VM3222:4 27 ' is not a prime number'
+VM3222:4 28 ' is not a prime number'
+VM3222:8 29 ' is a prime number'
+VM3222:4 30 ' is not a prime number'
+VM3222:8 31 ' is a prime number'
+VM3222:4 32 ' is not a prime number'
+VM3222:4 33 ' is not a prime number'
+VM3222:4 34 ' is not a prime number'
+VM3222:4 35 ' is not a prime number'
+VM3222:4 36 ' is not a prime number'
+VM3222:8 37 ' is a prime number'
+VM3222:4 38 ' is not a prime number'
+VM3222:4 39 ' is not a prime number'
+VM3222:4 40 ' is not a prime number'
+VM3222:8 41 ' is a prime number'
+VM3222:4 42 ' is not a prime number'
+VM3222:8 43 ' is a prime number'
+VM3222:4 44 ' is not a prime number'
+VM3222:4 45 ' is not a prime number'
+VM3222:4 46 ' is not a prime number'
+VM3222:8 47 ' is a prime number'
+VM3222:4 48 ' is not a prime number'
+VM3222:4 49 ' is not a prime number'
+VM3222:4 50 ' is not a prime number'
+VM3222:4 51 ' is not a prime number'
+VM3222:4 52 ' is not a prime number'
+VM3222:8 53 ' is a prime number'
+VM3222:4 54 ' is not a prime number'
+VM3222:4 55 ' is not a prime number'
+VM3222:4 56 ' is not a prime number'
+VM3222:4 57 ' is not a prime number'
+VM3222:4 58 ' is not a prime number'
+VM3222:8 59 ' is a prime number'
+VM3222:4 60 ' is not a prime number'
+VM3222:8 61 ' is a prime number'
+VM3222:4 62 ' is not a prime number'
+VM3222:4 63 ' is not a prime number'
+VM3222:4 64 ' is not a prime number'
+VM3222:4 65 ' is not a prime number'
+VM3222:4 66 ' is not a prime number'
+VM3222:8 67 ' is a prime number'
+VM3222:4 68 ' is not a prime number'
+VM3222:4 69 ' is not a prime number'
+VM3222:4 70 ' is not a prime number'
+VM3222:8 71 ' is a prime number'
+VM3222:4 72 ' is not a prime number'
+VM3222:8 73 ' is a prime number'
+VM3222:4 74 ' is not a prime number'
+VM3222:4 75 ' is not a prime number'
+VM3222:4 76 ' is not a prime number'
+VM3222:4 77 ' is not a prime number'
+VM3222:4 78 ' is not a prime number'
+VM3222:8 79 ' is a prime number'
+VM3222:4 80 ' is not a prime number'
+VM3222:4 81 ' is not a prime number'
+VM3222:4 82 ' is not a prime number'
+VM3222:8 83 ' is a prime number'
+VM3222:4 84 ' is not a prime number'
+VM3222:4 85 ' is not a prime number'
+VM3222:4 86 ' is not a prime number'
+VM3222:4 87 ' is not a prime number'
+VM3222:4 88 ' is not a prime number'
+VM3222:8 89 ' is a prime number'
+VM3222:4 90 ' is not a prime number'
+VM3222:4 91 ' is not a prime number'
+VM3222:4 92 ' is not a prime number'
+VM3222:4 93 ' is not a prime number'
+VM3222:4 94 ' is not a prime number'
+VM3222:4 95 ' is not a prime number'
+VM3222:4 96 ' is not a prime number'
+VM3222:8 97 ' is a prime number'
+VM3222:4 98 ' is not a prime number'
+VM3222:4 99 ' is not a prime number'
+undefined
+333 + "lksdlf"
+'333lksdlf'
+fun1 = function primeYesNo(n){
+    for(let i=2; i<n;i++){
+        if(n%i==0){
+            console.log(n, " is not a prime number");
+            return;
+        }
+    }
+    console.log(n, " is a prime number");
+}
+ƒ primeYesNo(n){
+    for(let i=2; i<n;i++){
+        if(n%i==0){
+            console.log(n, " is not a prime number");
+            return;
+        }
+    }
+    console.log(n, " is a prime number");
+}
+fun1
+ƒ primeYesNo(n){
+    for(let i=2; i<n;i++){
+        if(n%i==0){
+            console.log(n, " is not a prime number");
+            return;
+        }
+    }
+    console.log(n, " is a prime number");
+}
+typeof(fun1)
+'function'
+primeYesNo(90)
+VM3222:4 90 ' is not a prime number'
+undefined
+fun1(90)
+VM3543:4 90 ' is not a prime number'
+undefined
+function checkRange(f, l, u){
+    for(let i = l; i<u; i++){
+        f(i);
+    }
+            
+VM3866:5 Uncaught SyntaxError: Unexpected end of input
+function checkRange(f, l, u){
+    for(let i = l; i<u; i++){
+        f(i);
+    }
+            
+VM3869:5 Uncaught SyntaxError: Unexpected end of input
+function checkRange(f, l, u){
+    for(let i = l; i<u; i++){
+        f(i);
+    }}
+            
+undefined
+checkRange(fun1, 40, 50);
+VM3543:4 40 ' is not a prime number'
+VM3543:8 41 ' is a prime number'
+VM3543:4 42 ' is not a prime number'
+VM3543:8 43 ' is a prime number'
+VM3543:4 44 ' is not a prime number'
+VM3543:4 45 ' is not a prime number'
+VM3543:4 46 ' is not a prime number'
+VM3543:8 47 ' is a prime number'
+VM3543:4 48 ' is not a prime number'
+VM3543:4 49 ' is not a prime number'
+undefined
+fun1 = function primeYesNo(n){
+    for(let i=2; i<n;i++){
+        if(n%i==0){
+            //console.log(n, " is not a prime number");
+            return;
+        }
+    }
+    console.log(n, " is a prime number");
+}
+ƒ primeYesNo(n){
+    for(let i=2; i<n;i++){
+        if(n%i==0){
+            //console.log(n, " is not a prime number");
+            return;
+        }
+    }
+    console.log(n, " is a prime number");
+}
+checkRange(fun1, 40, 50);
+VM3948:8 41 ' is a prime number'
+VM3948:8 43 ' is a prime number'
+VM3948:8 47 ' is a prime number'
+undefined
+fun2 = function EvenOdd(n){
+    if(n%2==0){
+        console.log(n+" is an even number");
+    }
+    else{
+        console.log(n+" is an odd number");
+    }
+}
+ƒ EvenOdd(n){
+    if(n%2==0){
+        console.log(n+" is an even number");
+    }
+    else{
+        console.log(n+" is an odd number");
+    }
+}
+checkRange(fun2, 40, 50);
+VM4262:3 40 is an even number
+VM4262:6 41 is an odd number
+VM4262:3 42 is an even number
+VM4262:6 43 is an odd number
+VM4262:3 44 is an even number
+VM4262:6 45 is an odd number
+VM4262:3 46 is an even number
+VM4262:6 47 is an odd number
+VM4262:3 48 is an even number
+VM4262:6 49 is an odd number
+undefined
